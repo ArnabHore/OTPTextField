@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21D570C62077A7FE0009BDAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D570C52077A7FE0009BDAB /* AppDelegate.swift */; };
+		21D570C82077A7FE0009BDAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D570C72077A7FE0009BDAB /* ViewController.swift */; };
+		21D570CB2077A7FE0009BDAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D570C92077A7FE0009BDAB /* Main.storyboard */; };
+		21D570CD2077A7FE0009BDAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D570CC2077A7FE0009BDAB /* Assets.xcassets */; };
+		21D570D02077A7FE0009BDAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D570CE2077A7FE0009BDAB /* LaunchScreen.storyboard */; };
+		21D570DB2077A7FE0009BDAB /* OTPTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D570DA2077A7FE0009BDAB /* OTPTextFieldTests.swift */; };
+		21D570E62077A7FE0009BDAB /* OTPTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D570E52077A7FE0009BDAB /* OTPTextFieldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21D570D72077A7FE0009BDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21D570BA2077A7FE0009BDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21D570C12077A7FE0009BDAB;
+			remoteInfo = OTPTextField;
+		};
+		21D570E22077A7FE0009BDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21D570BA2077A7FE0009BDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21D570C12077A7FE0009BDAB;
+			remoteInfo = OTPTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21D570C22077A7FE0009BDAB /* OTPTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTPTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D570C52077A7FE0009BDAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21D570C72077A7FE0009BDAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21D570CA2077A7FE0009BDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21D570CC2077A7FE0009BDAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21D570CF2077A7FE0009BDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21D570D12077A7FE0009BDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D570D62077A7FE0009BDAB /* OTPTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTPTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D570DA2077A7FE0009BDAB /* OTPTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldTests.swift; sourceTree = "<group>"; };
+		21D570DC2077A7FE0009BDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D570E12077A7FE0009BDAB /* OTPTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTPTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D570E52077A7FE0009BDAB /* OTPTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldUITests.swift; sourceTree = "<group>"; };
+		21D570E72077A7FE0009BDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21D570BF2077A7FE0009BDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D570D32077A7FE0009BDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D570DE2077A7FE0009BDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21D570B92077A7FE0009BDAB = {
+			isa = PBXGroup;
+			children = (
+				21D570C42077A7FE0009BDAB /* OTPTextField */,
+				21D570D92077A7FE0009BDAB /* OTPTextFieldTests */,
+				21D570E42077A7FE0009BDAB /* OTPTextFieldUITests */,
+				21D570C32077A7FE0009BDAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21D570C32077A7FE0009BDAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21D570C22077A7FE0009BDAB /* OTPTextField.app */,
+				21D570D62077A7FE0009BDAB /* OTPTextFieldTests.xctest */,
+				21D570E12077A7FE0009BDAB /* OTPTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21D570C42077A7FE0009BDAB /* OTPTextField */ = {
+			isa = PBXGroup;
+			children = (
+				21D570C52077A7FE0009BDAB /* AppDelegate.swift */,
+				21D570C72077A7FE0009BDAB /* ViewController.swift */,
+				21D570C92077A7FE0009BDAB /* Main.storyboard */,
+				21D570CC2077A7FE0009BDAB /* Assets.xcassets */,
+				21D570CE2077A7FE0009BDAB /* LaunchScreen.storyboard */,
+				21D570D12077A7FE0009BDAB /* Info.plist */,
+			);
+			path = OTPTextField;
+			sourceTree = "<group>";
+		};
+		21D570D92077A7FE0009BDAB /* OTPTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				21D570DA2077A7FE0009BDAB /* OTPTextFieldTests.swift */,
+				21D570DC2077A7FE0009BDAB /* Info.plist */,
+			);
+			path = OTPTextFieldTests;
+			sourceTree = "<group>";
+		};
+		21D570E42077A7FE0009BDAB /* OTPTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21D570E52077A7FE0009BDAB /* OTPTextFieldUITests.swift */,
+				21D570E72077A7FE0009BDAB /* Info.plist */,
+			);
+			path = OTPTextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21D570C12077A7FE0009BDAB /* OTPTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D570EA2077A7FE0009BDAB /* Build configuration list for PBXNativeTarget "OTPTextField" */;
+			buildPhases = (
+				21D570BE2077A7FE0009BDAB /* Sources */,
+				21D570BF2077A7FE0009BDAB /* Frameworks */,
+				21D570C02077A7FE0009BDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTPTextField;
+			productName = OTPTextField;
+			productReference = 21D570C22077A7FE0009BDAB /* OTPTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21D570D52077A7FE0009BDAB /* OTPTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D570ED2077A7FE0009BDAB /* Build configuration list for PBXNativeTarget "OTPTextFieldTests" */;
+			buildPhases = (
+				21D570D22077A7FE0009BDAB /* Sources */,
+				21D570D32077A7FE0009BDAB /* Frameworks */,
+				21D570D42077A7FE0009BDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21D570D82077A7FE0009BDAB /* PBXTargetDependency */,
+			);
+			name = OTPTextFieldTests;
+			productName = OTPTextFieldTests;
+			productReference = 21D570D62077A7FE0009BDAB /* OTPTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21D570E02077A7FE0009BDAB /* OTPTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D570F02077A7FE0009BDAB /* Build configuration list for PBXNativeTarget "OTPTextFieldUITests" */;
+			buildPhases = (
+				21D570DD2077A7FE0009BDAB /* Sources */,
+				21D570DE2077A7FE0009BDAB /* Frameworks */,
+				21D570DF2077A7FE0009BDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21D570E32077A7FE0009BDAB /* PBXTargetDependency */,
+			);
+			name = OTPTextFieldUITests;
+			productName = OTPTextFieldUITests;
+			productReference = 21D570E12077A7FE0009BDAB /* OTPTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21D570BA2077A7FE0009BDAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Arnab;
+				TargetAttributes = {
+					21D570C12077A7FE0009BDAB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					21D570D52077A7FE0009BDAB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21D570C12077A7FE0009BDAB;
+					};
+					21D570E02077A7FE0009BDAB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21D570C12077A7FE0009BDAB;
+					};
+				};
+			};
+			buildConfigurationList = 21D570BD2077A7FE0009BDAB /* Build configuration list for PBXProject "OTPTextField" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21D570B92077A7FE0009BDAB;
+			productRefGroup = 21D570C32077A7FE0009BDAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21D570C12077A7FE0009BDAB /* OTPTextField */,
+				21D570D52077A7FE0009BDAB /* OTPTextFieldTests */,
+				21D570E02077A7FE0009BDAB /* OTPTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21D570C02077A7FE0009BDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D570D02077A7FE0009BDAB /* LaunchScreen.storyboard in Resources */,
+				21D570CD2077A7FE0009BDAB /* Assets.xcassets in Resources */,
+				21D570CB2077A7FE0009BDAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D570D42077A7FE0009BDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D570DF2077A7FE0009BDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21D570BE2077A7FE0009BDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D570C82077A7FE0009BDAB /* ViewController.swift in Sources */,
+				21D570C62077A7FE0009BDAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D570D22077A7FE0009BDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D570DB2077A7FE0009BDAB /* OTPTextFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D570DD2077A7FE0009BDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D570E62077A7FE0009BDAB /* OTPTextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21D570D82077A7FE0009BDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21D570C12077A7FE0009BDAB /* OTPTextField */;
+			targetProxy = 21D570D72077A7FE0009BDAB /* PBXContainerItemProxy */;
+		};
+		21D570E32077A7FE0009BDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21D570C12077A7FE0009BDAB /* OTPTextField */;
+			targetProxy = 21D570E22077A7FE0009BDAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21D570C92077A7FE0009BDAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D570CA2077A7FE0009BDAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21D570CE2077A7FE0009BDAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D570CF2077A7FE0009BDAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21D570E82077A7FE0009BDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21D570E92077A7FE0009BDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21D570EB2077A7FE0009BDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OTPTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnab.OTPTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21D570EC2077A7FE0009BDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OTPTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnab.OTPTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21D570EE2077A7FE0009BDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OTPTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnab.OTPTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTPTextField.app/OTPTextField";
+			};
+			name = Debug;
+		};
+		21D570EF2077A7FE0009BDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OTPTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnab.OTPTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTPTextField.app/OTPTextField";
+			};
+			name = Release;
+		};
+		21D570F12077A7FE0009BDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OTPTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnab.OTPTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OTPTextField;
+			};
+			name = Debug;
+		};
+		21D570F22077A7FE0009BDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OTPTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnab.OTPTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OTPTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21D570BD2077A7FE0009BDAB /* Build configuration list for PBXProject "OTPTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D570E82077A7FE0009BDAB /* Debug */,
+				21D570E92077A7FE0009BDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21D570EA2077A7FE0009BDAB /* Build configuration list for PBXNativeTarget "OTPTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D570EB2077A7FE0009BDAB /* Debug */,
+				21D570EC2077A7FE0009BDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21D570ED2077A7FE0009BDAB /* Build configuration list for PBXNativeTarget "OTPTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D570EE2077A7FE0009BDAB /* Debug */,
+				21D570EF2077A7FE0009BDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21D570F02077A7FE0009BDAB /* Build configuration list for PBXNativeTarget "OTPTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D570F12077A7FE0009BDAB /* Debug */,
+				21D570F22077A7FE0009BDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21D570BA2077A7FE0009BDAB /* Project object */;
+}
